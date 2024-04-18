@@ -4,8 +4,9 @@
 
 # 安装环境
 
-1. 自行安装python
-2. 使用 pip 安装 DrissionPage：`pip install DrissionPage`
+1. 自行安装谷歌浏览器
+2. 自行安装python
+3. 使用 pip 安装 DrissionPage：`pip install DrissionPage`
 
 # 使用
 
