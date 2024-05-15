@@ -23,7 +23,7 @@ while(True):
     # 判断当前时间是否到达了秒杀时间
     if(now>kill_time):
         # 点击结算按钮
-        page.ele('x://*[@id="J_SmallSubmit"]').click()
+        page.ele('x://*[@id="J_Go"]/span').click()
         # 下单商品
         page.ele('x://*[@id="submitOrderPC_1"]/div/a[2]').click()
         break
