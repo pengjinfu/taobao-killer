@@ -26,6 +26,10 @@ while(True):
         page.ele('x://*[@id="J_Go"]/span').click()
         # 下单商品
         page.ele('x://*[@id="submitOrderPC_1"]/div/a[2]').click()
+        # 输入支付密码
+        page.ele('x://*[@id="payPassword_rsainput"]').input("123456")
+        # 确定
+        page.ele('x://*[@id="validateButton"]').click()
         break
     # 判断当前秒数是不是0，实现间隔一分钟刷新页面，防止掉登录
     if(datetime.datetime.now().second == 0):
